@@ -121,32 +121,7 @@
             <persname role="subject" encodinganalog="600">Cullen, Lillie Cranz</persname>
             <persname role="subject" encodinganalog="600">Cullen, Thomas S.</persname>
             <persname role="subject" encodinganalog="600">Dallas (valet and chauffeur to the Bertners)</persname>
-            <persname role="subject" encodinganalog="600">Freeman, John</persname>
-            <persname role="subject" encodinganalog="600">Gates, Charles S.</persname>
-            <persname role="subject" encodinganalog="600">Hanselman, Anna</persname>
-            <persname role="subject" encodinganalog="600">Hauschka, Theodore Spaeth</persname>
-            <persname role="subject" encodinganalog="600">Jolly, Robert</persname>
-            <persname role="subject" encodinganalog="600">Jones, Jeese Holman</persname>
-            <persname role="subject" encodinganalog="600">Karnaky, Karl John</persname>
-            <persname role="subject" encodinganalog="600">Kelly, Howard Atwood</persname>
-            <persname role="subject" encodinganalog="600">Long, Crawford W.</persname>
-            <persname role="subject" encodinganalog="600">Macon, Don</persname>
-            <persname role="subject" encodinganalog="600">Morton, Barney B.</persname>
-            <persname role="subject" encodinganalog="600">Moursand, Dean</persname>
-            <persname role="subject" encodinganalog="600">Naylor, Julia Williams Bertner</persname>
-            <persname role="subject" encodinganalog="600">Nesbit, Wellwood</persname>
-            <persname role="subject" encodinganalog="600">Oldman, Dudley Y.</persname>
-            <persname role="subject" encodinganalog="600">Reimann, Stanley P.</persname>
-            <persname role="subject" encodinganalog="600">Rivici, Emanual</persname>
-            <persname role="subject" encodinganalog="600">Schlenk, F.</persname>
-            <persname role="subject" encodinganalog="600">Seybold, William</persname>
-            <persname role="subject" encodinganalog="600">Sheperd, R. A. </persname>
-            <persname role="subject" encodinganalog="600">Smith, A. Frank</persname>
-            <persname role="subject" encodinganalog="600">Smith, Frank Smith</persname>
-            <persname role="subject" encodinganalog="600">Stoval, W. D. </persname>
-            <persname role="subject" encodinganalog="600">Talbot, Barry</persname>
-            <persname role="subject" encodinganalog="600">Wilkins, H. M.</persname>
-            <persname role="subject" encodinganalog="600">Young, Hugh H.</persname>
+
          </controlaccess>
          <controlaccess>
             <corpname role="subject" encodinganalog="610">Alpha Theta</corpname>
@@ -1406,43 +1381,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series">
-            <did>
-               <unittitle>Series VI. Scrapbooks</unittitle>
-               <unitdate era="ce" calendar="gregorian">1938-1976</unitdate>
-            </did>
-            <scopecontent>
-               <p>This series contains a Texas Medical Library scrapbook and clippings from the Texas Medical Library News along with Dr. Bertner’s personal scrapbooks.</p>
-            </scopecontent>
-            <c02>
-               <did>
-                  <container type="Box">OV 062</container>
-                  <container type="Folder">1</container>
-                  <unittitle>MD Anderson Hospital and Tumor Institute; 1976</unittitle>
-               </did>
-            </c02>
-            <c02>
-               <did>
-                  <container type="Box">OV 062</container>
-                  <container type="Folder">2</container>
-                  <unittitle>Clippings; Texas Medical Center Newspaper; 1967</unittitle>
-               </did>
-            </c02>
-            <c02>
-               <did>
-                  <container type="Box">OV 062</container>
-                  <container type="Folder">3</container>
-                  <unittitle>Scrapbook; 1938-1946</unittitle>
-               </did>
-            </c02>
-            <c02>
-               <did>
-                  <container type="Box">OV 062</container>
-                  <container type="Folder">4</container>
-                  <unittitle>Scrapbook; 1946-1948</unittitle>
-               </did>
-            </c02>
-         </c01>
+
       </dsc><!-- END DESCRIPTION OF SUBORDINATE COMPONENTS-->
    </archdesc>
 </ead>
