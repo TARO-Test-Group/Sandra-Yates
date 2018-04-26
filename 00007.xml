@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd" relatedencoding="MARC21"> 
+   <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" id="a0">
+      <eadid countrycode="US" encodinganalog="TxHAM">urn:taro:hamtmc.00007</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="title">William C. Moloney, MD papers; <!--Collection title; required-->
+               <date era="ce" calendar="gregorian" type="inclusive" normal="1952/1954">1952-1954; <!--Insert inclusive date(s), eg., 1944-1995; required--></date>
+               <num>MS 073</num>
+            </titleproper>
+            <author encodinganalog="creator">Finding aid prepared by Margaret Irwin.<!--Name of the author(s) of the finding aid--></author>
+         </titlestmt>
+         <publicationstmt><!--To link to your logo, click on the diamond in the <extptr> tag below and enter the full
+URL of the digital logo file in the HREF attribute. Describe image in TITLE attribute, eg., University of 
+Oregon logo-->
+            <publisher encodinganalog="publisher">Houston Academy of Medicine-Texas Medical Center Library.<!--Name of the publisher of 
+		  the finding aid; required--></publisher>
+            <date encodinganalog="date" era="ce" calendar="gregorian">December 13, 2010 <!--Year published; 
+		 required--></date>
+            <address>
+               <addressline>1133 John Freeman Blvd.<!--1st line of publisher's address in this case the HAM-TMC Library. Use as many addressline elements 
+			 as needed; OK to include phone, fax, email, URLs; required--></addressline>
+               <addressline>Houston, TX 77030-2809.</addressline>
+               <addressline> mcgovern@library.tmc.edu</addressline>
+               <addressline>713-799-7145</addressline>
+            </address>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Philip L. Montgomery. <!--Name of EAD encoder(s)-->
+            <date era="ce" calendar="gregorian">December 13, 2010<!--Full date or year of initial  encoding into EAD. --></date>
+         </creation>
+         <langusage>Finding aid written in 
+		  <language langcode="eng" encodinganalog="language" scriptcode="Latn">English</language>.<!--Mention all the languages encountered in the collection if possible. -->
+         </langusage>
+         <descrules>Finding aid based
+		on DACS ( 
+		<title>Describing Archives: A Content
+		  Standard</title>).</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" type="inventory" relatedencoding="marc21">
+      <did id="a1">
+         <repository label="Repository:" encodinganalog="852$a">
+            <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+               xlink:actuate="onRequest" xlink:href="http://library.tmc.edu/mcgovern">
+               <corpname><subarea>John P. McGovern Historical Collections and Research Center<!-- Enter secondary administrative level within a repository, e.g. Archive --></subarea>, Houston Academy of Medicine-Texas Medical Center Library<!-- Enter repository name, e.g. Library --></corpname>
+            </extref>
+         </repository>
+         <unitid encodinganalog="099" countrycode="US">MS 073<!--Required. Enter collection, record group, or 
+		other collection control no., eg., 1990-24. Also fill in the REPOSITORYCODE attribute with the appropriate MARC code.--></unitid>
+         <origination label="Creator:">
+            <persname encodinganalog="100">Moloney, William Curry<!--Personal creator's name if appropriate, surname 
+			first; or use famname element for family 
+		  papers or corpname element for organizational records. The personal creator is the person or persons who created the collection. Add/verify info in SOURCE, RULES, and 
+		  ENCODINGANALOG attributes--></persname>
+         </origination>
+         <unittitle encodinganalog="245$a">William C. Moloney MD papers; <!--Collection title; required--></unittitle>
+         <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1952-1954.<!--Usually inclusive dates, eg., 1944-1995.  Repeat element if inclusive and bulk dates are recorded. Required--></unitdate>
+         <physdesc>
+            <extent encodinganalog="300$a">.25 cubic foot <!--Number of cubic or linear 
+		feet, and/or number of containers and/or items, eg., 3 cubic feet. Required--></extent>
+            <extent encodinganalog="300$a">(1 box).<!--If number of feet entered above, enter here 
+		  number of containers if desired, eg., (7 boxes)--></extent>
+            <physfacet encodinganalog="300$b"><!--Optional brief description of appearance, materials, 
+		  or techniques if applicable--></physfacet>
+         </physdesc>
+         <abstract encodinganalog="5203_">William C. Moloney MD kept a personal journal, with photographs, for much of his two years in Japan with the Atomic Bomb Casualty Commission. In January of 1986, Dr. Moloney donated his journal, correspondence and diary pages to the Harris County Medical Archive. He died in 1998 at the age of 91. His first contribution was a set of ten reprints representing his work with the ABCC from 1952 to 1954. Dr. Moloney's journal is a fine document, one which will be of great use to historians. It is an important record of personal impressions, thoughts and details of events. The journal gives new insights into the work of the ABCC and into the people who participated in that work. Dr. Moloney wrote in his journal from April 1952 to February 1954. The Korean War was on and there was a great deal of military activity in southern Japan. The collection is open for research. The collection consists of a handwritten journal, loose calendar or notebook pages and some reprints. The journal is in generally fair condition. The paper is slightly acidic and the binding is loose. There are numerous photos glued onto the pages. The collection encompasses the years 1952-1954 and is 0.25 cubic feet (1 box). <!--Very brief summary of collection contents 
+		and biog./historical info. Use an abbreviated form of the Scope and Content note. At the end of the abstract include, a very brief description of the physical condition, the date range and the size fo the collection in cubic feet and boxes. required--></abstract>
+
+         <langmaterial>
+            <language encodinganalog="546">English.<!--Language(s) of the described 
+		materials; use one langcode element for each language. <langmaterial> is required--></language>
+            <language encodinganalog="546"> Japanese.<!--Language(s) of the described 
+				materials; use one langcode element for each language. <langmaterial> is required--></language>
+         </langmaterial>
+      </did>
+      <bioghist encodinganalog="545" id="a2"><!--Enter ENCODINGANALOG value of 5450_ for biog. or 5451_ for historical note, or use 
+<head> element-->
+         <head>Biographical Notes<!--Enter heading for Biographical Note or Historical Note as applicable--></head>
+         <p>William Curry Moloney was born in Boston Massachusetts on December 19, 1907. He died in 1998.</p>
+         <p>He studied medicine at Tufts College and graduated in 1932 with a Doctor of Medicine degree. In 1961, he was awarded an honorary Doctorate of Science from the College of the Holy Cross. Dr. Moloney was associated with the Medical School of Tufts University for forty years. He began his career in 1934 as an assistant, then rose to a full professor in 1971 and retired in 1974. Dr. Moloney became Emeritus Professor of Medicine, Harvard Medical School in 1974- and Emeritus Physician and Chief of the Hematology Division, Peter Bent Brigham Hospital in 1967. He also served concurrent posts: Consultant, Boston Hospitals, 1938-, consultant, Boston City Hospitals, 1948-, director of clinical laboratories.</p>
+         <p>He is a fellow or member of the following organizations: American Association for the Advancement of Science, American Federation of Clinical Research, American Medical Association, American College of Physicians, Association of American Physicians. </p>
+         <p>Dr. Moloney served in Japan with the Atomic Bomb Casualty Commission (ABCC) as the Chief of the Department of Medicine from 1952-1954. His hematology research at ABCC allowed him to work scientists from many departments.</p>
+         <p>Dr. Moloney and his wife, Josephine "Jo" (O'Brien) had four children.
+	 		
+	 		<!--Text of biographical or historical note, in paragraphs; separate each with paragraph tags. Use paragraph tags to break up long text. Include a citation for the source. Sources may include material within the collection itself, but cite the source so that researchers can find the material.-->
+         </p>
+      </bioghist>
+      <scopecontent encodinganalog="5202_" id="a3">
+         <head>Scope and Content Note</head>
+         <p>William C. Moloney MD kept a personal journal, with photographs, for much of his two years in Japan with the Atomic Bomb Casualty Commission. In January of 1986, Dr. Moloney donated his journal, correspondence and diary pages to the Harris County Medical Archive. He died in 1998 at the age of 91. His first contribution was a set of ten reprints representing his work with the ABCC from 1952 to 1954. Dr. Moloney's journal is a fine document, one which will be of great use to historians. It is an important record of personal impressions, thoughts and details of events. The journal gives new insights into the work of the ABCC and into the people who participated in that work. Dr. Moloney wrote in his journal from April 1952 to February 1954. The Korean War was on and there was a great deal of military activity in southern Japan. The collection is open for research. The collection consists of a handwritten journal, loose letters and reprints. </p>
+         <p>In this collection are letters, a journal and reprints. There are three letters written in May and July 1952. Two are typed and one handwritten. There are also loose pages from his diary starting on the Moloney family's departure from Boston in April 14, 1952 with the last entry dated December 11, 1952. There are references to their near disaster off Hilo on the way to Japan. The last item in this series is the jewel in the crown - Dr. Moloney's journal. The entries date from January 16, 1953 to February 27, 1954. Unfortunately there are gaps where he did not make entries. The numbered pages between 195 and 200 are missing. Dr. Moloney literally wrote from cover to cover in his journal. Glued or taped onto the journal pages are 165 black and white glossy photographs (there are 166 photographs in the journal) and a variety of other items (business cards, invitations, clippings, announcements, a golf score card, yen, postcards, driver's permits.) The typescript translation of an article from The Chugoku Press, 20 September 1953 originally placed between pages 101 and 102 has been removed and placed in envelopes. A folded map of Japan remains in the back of the journal. </p>
+         <p>The physical condition of the journal is mixed. The photographs are in good condition and the ink on the pages remains clear and crisp. The spine is broken and the pages are becoming detached. The tape and news clippings have yellowed and become brittle. The collection encompasses the years 1952-1954 and is 0.25 cubic feet (1 box).  </p>
+      </scopecontent>
+      <arrangement encodinganalog="351" id="a4">
+         <head>Arrangement of Collection</head>
+         <p>This collection is arranged into the following series. <!--Describe arrangement of materials--></p>
+         <list type="simple">
+            <item>Series I. Journal</item>
+            <item>Series II. Reprints</item>
+         </list>
+         <p>The William C. Moloney Collection features a personal journal, diary pages, three letters and a set of ten reprints. Series I and II are filed in the same box. 
+	 		
+	 	</p>
+      </arrangement>
+      <accessrestrict>
+         <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540" id="a15">
+         <head>Access restrictions</head>
+         <p>This material will not be reproduced due to the fragile nature of the materials. Consult an archivist at the McGovern Historical Research Center for more information. <!--Summary of use restrictions or lack of restrictions--></p>
+      </userestrict>
+      <prefercite encodinganalog="524" id="a18">
+         <head>Preferred Citation</head>
+         <p>The William C. Moloney papers; MS 73; John P. McGovern Historical Collections and Research Center, Houston Academy of Medicine-Texas Medical Center Library. <!--Preferred format for citing the collection--></p>
+      </prefercite>
+      <acqinfo encodinganalog="541" id="a19">
+         <head>Acquition Information</head>
+         <p>In January of 1986, Dr. Moloney donated his journal, correspondence and diary pages to the Harris County Medical Archive (later renamed the John P. McGovern Historical Collections and Research Center). His first contribution was a set of ten reprints representing his work with the ABCC from 1952 to 1954. <!--Details concerning the immediate acquisition of the material by the repository --></p>
+      </acqinfo>
+      <accruals encodinganalog="584" id="a10">
+         <head>Accruals</head>
+         <p>No accruals are expected for this collection.<!--Describe expected additions; optional--></p>
+      </accruals>
+      <processinfo encodinganalog="583" id="a20">
+         <head>Processing Information</head>
+         <p>All hinges, staples, and paper clips have been removed. An archival bond was interleaved to keep related documents and attachments together. The loose diary pages, correspondence and typescript translation of a newspaper article have been placed in envelopes to maintain their integrity and to contain some possible contaminants.<!--Actions taken during accessioning, arranging, preserving, etc. This is not required. Use if relevant. --></p>
+      </processinfo>
+      <relatedmaterial encodinganalog="5441_" id="a6">
+         <head>Related Materials</head>
+         <p>Related materials include the assorted ABCC collections located at the Historical Research Center. Consult an archivist for more information.<!--Describe materials that are related, but not by provenance.  Use if relevant.--></p>
+      </relatedmaterial>
+      <controlaccess id="a12">
+         <head>Index terms</head>
+         <controlaccess>
+            <persname encodinganalog="600">Moloney, William Curry.<!--Creator of collection, surname first-->.</persname>
+            <persname encodinganalog="600">Kastenbaum, Marvin A.<!--Creator of collection, surname first-->.</persname>
+         </controlaccess>
+         <controlaccess>
+            <corpname role="subject" encodinganalog="610">Atomic Bomb Causualty Commission. <!--Corporate body name--></corpname>
+         </controlaccess>
+         <controlaccess>
+            <geogname role="subject" encodinganalog="651">Hiroshima.<!--Place name--></geogname>
+            <geogname role="subject" encodinganalog="651">Nagasaki.<!--Place name--></geogname>
+         </controlaccess>
+         <controlaccess>
+            <subject encodinganalog="650">Hematology. <!--Subject term--></subject>
+            <subject encodinganalog="650">Radiation.<!--Subject term--></subject>
+            <subject encodinganalog="650">Atomic Medicine.<!--Subject term--></subject>
+            <subject encodinganalog="650">Leukemia.<!--Subject term--></subject>
+            <subject encodinganalog="650">Nursing.<!--Subject term--></subject>
+         </controlaccess>
+         <controlaccess>
+            <genreform encodinganalog="655">Diary.<!--Form or genre term--></genreform>
+            <genreform encodinganalog="655">Journal.<!--Form or genre term--></genreform>
+            <genreform encodinganalog="655">Reprints.<!--Form or genre term--></genreform>
+            <genreform encodinganalog="655">Photographs.<!--Form or genre term--></genreform>
+         </controlaccess>
+      </controlaccess><!--A finding aid without a series or container list may end here.--><!--Be sure to choose the appropriate TYPE attribute for this collection-->
+      <dsc type="combined" id="a23"><!-- This is the beginning of the container list. c01 tags are the highest level. At each <c0x> level, be certain that you have chosen the appropriate LEVEL attribute! Most of the following container tags, such as c01, c02, c03, etc., have been filled in with sample materials. -->
+         <head>Detailed Description of the Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle encodinganalog="245$a">Series I:<!--Title of component--> Journal; </unittitle>
+               <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1952-1954<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+            </did>
+            <scopecontent encodinganalog="5202_">
+               <p><!--Brief description of component being described, such as series-->Scope and Content Note: In this series are three letters written in May and July 1952. Two are typed and one handwritten. There are also loose pages from his diary starting on the Moloney family's departure from Boston in April 14, 1952 with the last entry dated December 11, 1952. There are references to their near disaster off Hilo on the way to Japan. The last item in this series is the jewel in the crown - Dr. Moloney's journal. </p>
+               <p>The entries date from January 16, 1953 to February 27, 1954. Unfortunately there are gaps where Dr. Moloney did not make entries. The numbered pages between 195 and 200 are missing. Dr. Moloney literally wrote from cover to cover in his journal. Glued or taped onto the journal pages are 165 black and white glossy photographs (there is a total of 166 photographs in this series) and variety of other items (business cards, invitations, clippings, announcements, a golf score card, yen, postcards, driver's permits.) The typescript translation of an article from The Chugoku Press, 20 September 1953 originally placed between pages 101 and 102 has been removed in placed in L-velopes. A folded map of Japan remains in the back of the journal.</p>
+               <p>The physical condition of the journal is mixed. The photographs are in good condition and the ink on the pages remains clear and crisp. The spine is broken and the pages are becoming detached. The tape and news clippings have yellowed and become brittle.</p>
+               <p>A good summary of the journal was written by Dr. Moloney on September 16, 1985. </p>
+               <p>"I kept a "Journal, sort of a diary for 1952, 53 up until March 1954. I incorporated a lot of photographs of various VIP types, (including Joe Dimagio[sic]Dimaggio, Marilyn Munroe[sic]Monroe and Eleanor Roosavelt [sic]Roosevelt).It is a rahter [sic]rather personal Journal with reading notes, etc. included. I [sic] It reflects also the frustrations and criticisms of the program as I saw it . . . "
+		  		
+		  		
+		  	</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <container type="Box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle encodinganalog="245$a">Journal</unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian"> 1952-1954.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle encodinganalog="245$a">Series II: <!--Title of component-->Reprints; </unittitle>
+               <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1960-1964<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+            </did>
+            <scopecontent encodinganalog="5202_">
+               <p><!--Brief description of component being described, such as series-->Scope and Content Note: The reprints are arranged in alphabetical order by title. Dr. Moloney described the reprints in the following statement on September 16, 1985: </p>
+               <p>"While they do not represent a great contribution, I believe the studies I carried out with Bob Lange on the preclinical phase of CML were important, i.e., the finding that the early CML cases demonstrated very low alkaline phosphate activity in polymorphological leukocytes was at least an original observation. Unfortunately, as you know, at the time we had no cytogenetic capability . . . " 
+	 				
+	 				
+	 			</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 1. "Cytological and biochemical studies on the granulocyte in early leukemia among Atomic bomb survivors." William C. Moloney and Robert D. Lange. Reprinted from Texas Reports on Biology and Medicine, Vol. 12, No. 4, pages 887-897, Winter, 1954.   </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1954.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 2. "Data on linkage of ovalocytosis and blood groups." T. Fujii, W.C. Moloney and N.E. Morton. Reprinted from American Journal of Human Genetics, Vol. 7, No. 1, March 1955.  </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1955.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 3 "Kernicterus in Japanese infants." Clara Margoles, Kenji Katami, William C. Maloney, i.e., Moloney, Angel Pentschew, Wataru W. Sutow, and Webb Haymaker. Reprinted from World Neurology, September 1960, Vol. 1, No. 3. </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">September 1960.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 4. "Kernicterus in Japanese infants. I. Clinical and serological data from 25 patients." Wataru W. Sutow, William C. Moloney, Clara Margoles. Reprinted from Pediatric, Vol. 17, No. 3, March 1956.  </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1956.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 5.  "Leukemogenic effects of ionizing radiation on Atomic Bomb survivors in Hiroshima City." William C. Moloney and Marvin A. Kastenbaum. Reprinted from Science, February 25, 1955, Vol. 121, No. 3139, pages 308-309.  </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1955.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 6. "Leukemia in survivors of Atomic bombings." William C. Moloney. Reprinted from the New England Journal of Medicine, 253:88-90 (July 21), 1955.  </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1955.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 7. "Leukemia in survivors of Atomic bombings. I. General Observations." Robert D. Lange, William C. Moloney, and Tokuso Yamawaki. Reprinted from Blood, The Journal of Hematology, Vol. IX, No. 6, June 1954. </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1954.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 8. "Leukemia in survivors of Atomic bombings. II. Observations on Early Phases of Leukemia." William C. Moloney and Robert D. Lange. Reprinted from Blood, The Journal of Hematology, Vol. IX, July 1954. </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1954.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 9. "Linkage in man. Pelger's nuclear anomaly, taste, and blood groups." N.E. Morton, W.C. Moloney, and T. Fuji. Reprinted from American Journal of Human Genetics, Vol. 6, No. 1, March 1954. </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1954.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">-</container>
+                  <unittitle encodinganalog="245$a">Reprint 10. "Neonatal jaundice and kernicterus." B. Black-Schaffer, S. Kambe, M. Furuta, and W.C. Moloney. Reprinted from A.M.A. American Journal of Diseases of Children, June 1954, Vol. 87, pp. 737-751. </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1954.<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
