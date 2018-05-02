@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Template updated 20100714 by Philip Lee Montgomery--><!--Template Updated 20151001 by Sandra Yates, includes revised ISIL code found at http://www.loc.gov/marc/organizations/org-serach.org--><!--Remember to name and save documents using the MS or IC number plus an abbreviated title of the collections. For example: "131 T.F. Miles". Documents that are revised/updated after initial submission must be submitted with precisely the same filename.-->
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd" relatedencoding="MARC21"> 
+   <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" id="a0">
+      <eadid countrycode="US" mainagencycode="US-txham">urn:taro:hamtmc.00154<!--Enter here the unique TARO filename for this finding aid insert countrycode="US" encodinganalog="US-txham" and urn:taro:hamtmc.xxxxx with xxxxx representing the unique TARO number assigned by the archivist. --></eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="title">Matilda Benyesh-Melnick, MD papers; <!--Collection title; required-->
+               <date era="ce" calendar="gregorian" type="inclusive" normal="1956/1974">1956-1974; <!--Insert inclusive date(s), eg., 1944-1995; required--></date>
+               <num>MS 019</num>
+            </titleproper>
+
+            <author encodinganalog="creator">Finding aid prepared by Erin Schlothauer.<!--Name of the author(s) of the finding aid--></author>
+         </titlestmt>
+         <publicationstmt><!--To link to your logo, click on the diamond in the <extptr> tag below and enter the full
+URL of the digital logo file in the HREF attribute. Describe image in TITLE attribute, eg., University of 
+Oregon logo-->
+            <publisher encodinganalog="publisher">Houston Academy of Medicine-Texas Medical Center Library.<!--Name of the publisher of 
+		  the finding aid; required--></publisher>
+            <date era="ce" calendar="gregorian">December 2, 2016 <!--Date published. Use Montha day,year (August 24, 2010); 
+				required--></date>
+            <address>
+               <addressline>1133 John Freeman Blvd.<!--1st line of publisher's address in this case the HAM-TMC Library. Use as many addressline elements 
+			 as needed; OK to include phone, fax, email, URLs; required--></addressline>
+               <addressline>Houston, TX 77030-2809.</addressline>
+               <addressline> mcgovern@library.tmc.edu</addressline>
+               <addressline>713-799-7899</addressline>
+            </address>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded into EAD by Erin Schlothauer. <!--Name of EAD encoder(s)-->
+            <date era="ce" calendar="gregorian">December 2, 2016. <!--Date published or use date publishing to TARO for TARO files; 
+				required--></date>
+         </creation>
+         <langusage>Finding aid written in 
+		  <language langcode="eng" encodinganalog="language" scriptcode="Latn">English</language>.<!--Mention all the languages encountered in the collection if possible. -->
+         </langusage>
+         <descrules>Finding aid based
+		on DACS ( 
+		<title>Describing Archives: A Content
+		  Standard</title>).</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date era="ce" calendar="gregorian"><!--Enter date of substantial revision of finding aid, if any--></date>
+            <item><!--Describe the revision(s)--></item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" type="inventory" relatedencoding="marc21">
+      <did id="a1">
+         <unittitle label="Title">Matilda Benyesh-Melnick, MD Papers <!-- Title of collection goes here. --></unittitle>
+         <unitdate era="ce" calendar="gregorian" type="inclusive" normal="1956/1974">1956-1974<!-- date span of the collection --></unitdate>
+         <physdesc>
+            <extent encodinganalog="300$a">.75 cubic foot<!--Number of cubic or linear 
+	 		feet, and/or number of containers and/or items, eg., 3 cubic feet. Required--></extent>
+            <extent encodinganalog="300$a"> (2 box)<!--If number of feet entered above, enter here 
+	 			number of containers if desired, eg., (7 boxes)--></extent>
+         </physdesc>
+         <unitid label="Identification:"> MS 019<!--Required. Enter collection, record group, or 
+		other collection control no., eg., IC 24 or MS 115. --></unitid>
+         <repository label="Repository:">
+            <corpname encodinganalog="852$a">Houston Academy of Medicine-Texas Medical Center Library;    <!--Top-level name of repository e.g., 
+	 			University of Montana; required-->
+               <subarea encodinganalog="852$b">The John P. McGovern Historical Collections and Research Center, <!--Name 
+	 					of unit within repository, e.g., K. Ross Toole Archives--></subarea>
+            </corpname>
+            <address>
+               <addressline>1133 John Freeman Blvd.<!--1st line of address. Use as many addressline elements 
+			 as needed; OK to include phone, fax, email, URLs--></addressline>
+               <addressline>Houston, Texas 77030-2809.</addressline>
+            </address>
+         </repository>
+         <origination>
+            <persname encodinganalog="100">Benyesh-Melnick, Matilda<!--Personal creator's name if appropriate [use corpname for corporate entities in lieu of persname], surname first; or use famname element for family papers or corpname element for organizational records. The personal creator is the person or persons who created the collection. Add/verify info in SOURCE, RULES, and ENCODINGANALOG attributes--></persname>
+         </origination>
+         <abstract encodinganalog="5203_">The Matilda Benyesh-Melnick, MD papers document the career of Dr. Mailda Benyesh-Melnick, who made significant contributions to the fields of virology, microbiology, and oncology before beginning her career as a psychiatrist. She worked closely with her husband, Joseph L. Melnick, MD on his research on poliomyelitis as well as conducting her own research in myoplasma and it's relationship with cancer development in certain animals. This collection focuses on the research she conducted and collected between 1956 and 1974. The collection consists of 2 boxes, equaling .75 cubic feet. It contains reprints, reports, journals, magazines, and an undated manuscript. The materials are in good condition.<!--Very brief summary of collection contents 
+		and biog./historical info. Use an abbreviated form of the Scope and Content note. At the end of the abstract include, a very brief description of the physical condition, the date range and the size fo the collection in cubic feet and boxes. required--></abstract>
+         <physloc>Houston Academy of Medicine-Texas Medical Center Library, Houston, Texas.<!--Physical location of materials. Keep this simple: Houston Academy of Medicine-Texas Medical Center Library. --></physloc>
+         <langmaterial>
+            <language encodinganalog="546">English</language>
+         </langmaterial>
+      </did>
+      <phystech encodinganalog="340">
+         <p><!--Brief description of physical condition or equipment required; optional--></p>
+      </phystech>
+      <originalsloc encodinganalog="535">
+         <p><!--If materials described are reproductions, enter location of originals. optional--></p>
+      </originalsloc>
+      <bioghist encodinganalog="545" id="a2"><!--Enter ENCODINGANALOG value of 5450_ for biog. or 5451_ for historical note, or use 
+<head> element-->
+         <head>Biographical Note<!--Enter heading for Biographical Note or Historical Note as applicable--></head>
+         <p>Matilda Benyesh-Melnick, MD was born on February 7, 1926 in Russe, Bulgaria. She earned her medical degree from Hebrew University, Hadassah Medical School in 1952. She moved to Houston with her husband, Dr. Joseph L. Melnick, in 1958. In 1976 she began her residency in psychiatry at Baylor College of Medicine. At Baylor College of Medicine she held professorships in both the Department of Virology and Epidemiology as well as the Department of Psychiatry. She worked closely with her husband on his research on poliomyelitis as well as conducting her own research in myoplasma and it's relationship with cancer development in certain animals.<!--Text of biographical or historical note, in paragraphs; separate each with paragraph tags. Use paragraph tags to break up long text. Include a citation for the source. Sources may include material within the collection itself, but cite the source so that researchers can find the material.--></p>
+      </bioghist>
+      <scopecontent encodinganalog="5202_" id="a3">
+         <head>Scope and Content Note</head>
+         <p>The Matilda Benyesh-Melnick, MD papers contain research journals, reprints, magazines, reports, symposia and an undated manuscript related to her career in virology. Materials focus on the research that she conducted and collected between 1956 and 1974.</p>
+      </scopecontent>
+      <odd encodinganalog="500" id="a5">
+         <p><!--Text of additional general note(s); optional; if used for 
+		interpretive/background essay, enter "hist" in <odd> TYPE attribute--></p>
+      </odd>
+      <arrangement encodinganalog="351" id="a4">
+         <head>Arrangement of Collection</head>
+         <p>This collection is arranged into the following series. <!--Describe arrangement of materials--></p>
+         <list type="simple">
+            <item>Series I. Professional Work</item>
+            <item>Series II. Additional Research</item>
+         </list>
+      </arrangement>
+      <fileplan id="a37">
+         <p>Series I contains research she took part in as a researcher or publisher, Series II contains research and prints from others as well as a variety of miscellaneous prints.<!--Info about original arrangement system; optional--></p>
+      </fileplan>
+      <altformavail encodinganalog="530" id="a9">
+         <p><!--Describe any alternative formats such as microfilm; use daogrp to link to 
+		digital version(s)--></p>
+      </altformavail>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Unrestricted. Material is open for research.<!-- Enter access restrictions if applicable; if no restrictions then enter "Unrestricted." --></p>
+      </accessrestrict>
+      
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>Permission to publish from this material must be facilitated through the repository, McGovern Historical Center.<!-- Enter use restrictions if applicable --></p>
+      </userestrict>
+      <prefercite encodinganalog="524" id="a18">
+         <head>Preferred Citation</head>
+         <p>The Matilda Benyesh-Melnick, MD Papers; MS 019; John P. McGovern Historical Collections and Research Center, Houston Academy of Medicine-Texas Medical Center Library. <!--Preferred format for citing the collection--></p>
+         <p>Please cite the box and folder numbers where appropriate. </p>
+      </prefercite>
+
+      <processinfo encodinganalog="583" id="a20">
+         <head>Processing Information</head>
+         <p>Materials placed in acid-free folders and arranged her research arranged in chronological order. Additional research arranged by document type.<!--Actions taken during accessioning, arranging, preserving, etc. This is not required. Use if relevant. --></p>
+      </processinfo>
+      <relatedmaterial encodinganalog="544">
+         <head>Related Material</head>
+         <p>MS 015 Joseph L. Melnick, MD papers; MS 108 Daniel Creson, PhD papers</p>
+      </relatedmaterial>
+
+      <controlaccess id="a12">
+         <head>Index terms</head>
+         <p>This collection is indexed under the following headings in the online
+		  catalog. Researchers desiring materials about related topics, persons, or
+		  places should search the catalog using these headings.</p>
+         <controlaccess>
+            <persname encodinganalog="600" role="subject">Benyesh-Melnick, Matilda<!--Creator of collection, surname first-->--Archives</persname>
+            <persname role="subject" encodinganalog="600">Joseph L. Melnick<!--Additional personal name--></persname>
+            <persname role="creator" encodinganalog="700"><!--Additional creator, personal--></persname>
+         </controlaccess>
+         <controlaccess>
+            <famname role="subject" encodinganalog="600"><!--Family name--></famname>
+            <famname role="creator" encodinganalog="700"><!--Additional creator, family--></famname>
+         </controlaccess>
+         <controlaccess>
+            <corpname role="subject" encodinganalog="610"><!--Corporate body name--></corpname>
+            <corpname role="subject" encodinganalog="610"><!--Corporate body name--></corpname>
+            <corpname role="creator" encodinganalog="710"><!--Additional creator, corporate--></corpname>
+         </controlaccess>
+         <controlaccess>
+            <geogname role="subject" encodinganalog="651"><!--Place name--></geogname>
+         </controlaccess>
+         <controlaccess>
+            <subject encodinganalog="650">Virology<!--Subject term--></subject>
+            <subject encodinganalog="650">Microbiology<!--Subject term--></subject>
+            <subject encodinganalog="650">Oncology<!--Subject term--></subject>
+         </controlaccess>
+         <controlaccess>
+            <subject source="nwda" altrender="nodisplay" encodinganalog="690"><!--NWDA 
+		  browsing term; at least one is required--></subject>
+            <subject source="nwda" altrender="nodisplay" encodinganalog="690"><!--NWDA browsing term--></subject>
+         </controlaccess>
+         <controlaccess>
+            <genreform encodinganalog="655"><!--Form or genre term--></genreform>
+            <genreform encodinganalog="655"><!--Form or genre term--></genreform>
+         </controlaccess>
+         <controlaccess>
+            <occupation encodinganalog="656"><!--Occupation term--></occupation>
+            <occupation encodinganalog="656"><!--Occupation term--></occupation>
+         </controlaccess>
+         <controlaccess>
+            <function encodinganalog="657"><!--Function--></function>
+            <function encodinganalog="657"><!--Function--></function>
+         </controlaccess>
+         <controlaccess>
+            <title><!--Title of publication included/described in collection--></title>
+         </controlaccess>
+      </controlaccess><!--A finding aid without a series or container list may end here.--><!--Be sure to choose the appropriate TYPE attribute for this collection-->
+      <dsc type="combined" id="a23"><!-- This is the beginning of the container list. c01 tags are the highest level. At each <c0x> level, be certain that you have chosen the appropriate LEVEL attribute! Most of the following container tags, such as c01, c02, c03, etc., have been filled in with sample materials. -->
+         <head>Detailed Description of the Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle encodinganalog="245$a">Series I:<!--Title of component--> Professional Work; </unittitle>
+               <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1961-1974<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+            </did>
+            <scopecontent encodinganalog="5202_">
+               <p>This series includes research reprints by Dr. Benyesh-Melnick in her fields of study.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle encodinganalog="245$a">Research Reprints, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1961-1968<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle encodinganalog="245$a">Research Reprints, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1969-1972<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle encodinganalog="245$a">Research Reprints, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1973-1974<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle encodinganalog="245$a">Manuscripts, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">undated<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle encodinganalog="245$a">Series II:<!--Title of component--> Additional Research; </unittitle>
+               <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1956-1973<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+            </did>
+            <scopecontent encodinganalog="5202_">
+               <p>This series includes research by others relavent to Dr. Benyesh-Melnick's fields of study.</p>
+            </scopecontent>
+            
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1</container>
+                  <unittitle encodinganalog="245$a">Medical Magazines, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1956-December 1959<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">2</container>
+                  <unittitle encodinganalog="245$a">Danish Research Reprints, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1959-1971<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">3</container>
+                  <unittitle encodinganalog="245$a">Reports, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">March 3, 1959-April 1965<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4</container>
+                  <unittitle encodinganalog="245$a">Symposia, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">February 25, 1960-October 28, 1963<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">5</container>
+                  <unittitle encodinganalog="245$a">Reprints, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1963-1973<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">6</container>
+                  <unittitle encodinganalog="245$a">Bulletins, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">Summer 1964-February 6, 1965<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">7</container>
+                  <unittitle encodinganalog="245$a">Whole Journals, </unittitle>
+                  <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">December 1967-April 1971<!--Date or range of dates of component material, or "undated"; repeatable--></unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
